@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="form-register">
+    <form action="/register" method="POST">
+        <div class="sesion">
+            <h4 style="font-size: 40px;">Registro</h4>
+        </div>
+        
+        <div class="input_text">
+            <div id="content">
+              <div id="left">
+                 <div class="input_text">            
+                    <ul> <input class="textfield" type="text" name="nombre_completo" placeholder="ingresa tu nombre completo"></ul>
+                </div>
+              </div>
+              <div id="right">
+                 <ul> <input class="textfield" type="text" name="pais" placeholder="ingresa tu pais"></ul>
+              </div>
+            </div>
+        </div>
+              
+        <div class="input_text">
+            <div id="content">
+                <div id="left">
+                    <div class="input_text">            
+                        <ul> <input class="textfield" type="text" name="id_user" placeholder="ingresa número identidad"></ul>
+                    </div>
+                </div>
+                    <div id="right">
+                        <ul> <input class="textfield" type="text" name="direccion" placeholder="ingresa tu dirección"></ul>
+                    </div>
+            </div>
+        </div>
+         
+        <div class="input_text">
+            <div id="content">
+                <div id="left">
+                    <div class="input_text">            
+                        <ul> <input class="textfield" type="password" name="pass1" placeholder="ingresa tu contraseña"></ul>
+                    </div>
+                </div>
+                    <div id="right">
+                        <ul> <input class="textfield" type="text" name="telefono" placeholder="ingresa tu teléfono"></ul>
+                    </div>
+            </div>
+        </div>
+              
+        <div class="input_text">      
+            <div id="content">
+                <div id="left">
+                    <div class="input_text">            
+                        <ul> <input class="textfield" type="password" name="pass2" placeholder="confirma tu contraseña"></ul>
+                    </div>
+                </div>                    
+                    <div id="right">
+                        <div class="input_text">            
+                            <ul> <input class="textfield" type="text" name="email" placeholder="ingresa tu correo"></ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+              
+        <!-- <div class="input_text">
+            <div id="content">
+                <div id="left">
+                    <div id="right">
+                        <ul> <input class="calendar" type="date" name="date"></ul>
+                    </div>
+                </div>
+                    <div id="right">
+                        <ul> <input class="radio" type="radio" name="gen" value="female">Femenino<input  type="radio" name="gen" value="male">Masculino</ul>
+                    </div>
+            </div> 
+        </div> -->
+
+        <div class="input_text">            
+            <ul> <input class="boton" type="submit" value="REGISTRAR"></ul>
+            <h1 style="font-size: 20px;">¿Ya tienes una cuenta?</h1>
+            <a style="font-size: 20px;" href="/login"> Iniciar sesión</a>
+        </div>
+
+    </form>
+
+</div>
+
+
+{% endblock %}

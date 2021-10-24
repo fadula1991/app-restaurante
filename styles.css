@@ -1,0 +1,64 @@
+.form-login{
+    border: 3px groove;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+.form-register{
+    border: 3px groove;
+    text-align: center;
+    width: 601px;
+    height: 680px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.textfield{
+    margin-left: -40px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.boton{
+    margin-left: -40px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.calendar{
+margin-left: -40px;
+}
+.radio{
+    margin-left: -40px;
+}
+
+
+#content { 
+  overflow:auto; 
+  width: 600px; 
+  background: gray; 
+  text-align: center;
+} 
+
+#left, #right { 
+  width: 40%; 
+  margin:5px; 
+  padding: 0em; 
+  background: white; 
+} 
+
+#left  { float:left;  }
+#right { float:right; }
